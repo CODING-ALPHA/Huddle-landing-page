@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s ease;
+}
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+  background-color: var(--Violet);
+  background-image: url(./images/bg-desktop.svg);
+  transition: 0.4 ease;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../images/bg-desktop.svg);
+  background-position: 80% 30%;
+}
+
+/* Header and image section */
+
+header {
+  margin: 13px 0 5px 0px;
+  width: max-content;
+}
+
+img {
+  margin: 13px 0 0px 62px;
+  width: 200px;
+}
+
+.mockup img {
+  width: 600px;
+}
+
+/* The div containing the image and the typography and the button */
+
+.container {
+  display: flex;
+  color: #fff;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* The div class containing the h1,p,and button */
+
+.text {
+  margin: auto;
+}
+
+h1 {
+  width: 350px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  margin: 5px auto;
+}
+
+/* The button */
+
+button {
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  color: var(--Violet);
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+/* how the button will look like when you hover the button */
+
+button:hover {
+  transform: translateY(-5px);
+}
+
+/* how the button will look like when you click on the button */
+
+button:active {
+  color: #fff;
+  background-color: var(--SoftMagenta);
+}
+
+/* footer div class containing facebook,twitterand instagram icon */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+  gap: 10px;
+}
+
+.fab {
+  padding-inline-start: 20px;
+  color: rgba(255, 255, 255, 0.954);
+  text-align: center;
+  align-items: center;
+  padding: 6px 2px 2px 2px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  transition: 0.4s ease;
+}
+
+/* How the icon will disply when you hover it */
+
+.fab:hover {
+  transform: translateY(-10px);
+}
+
+/* How the icon will disply when you click on it */
+
+.fab:active {
+  color: var(--SoftMagenta);
+  border-color: var(--SoftMagenta);
+}
+
+.fa-facebook-f {
+  border: 1px solid rgba(255, 255, 255, 0.617);
+  border-radius: 25px;
+}
+
+.fa-twitter {
+  border: 1px solid rgba(255, 255, 255, 0.617);
+  border-radius: 25px;
+}
+
+.fa-instagram {
+  border: 1px solid rgba(255, 255, 255, 0.617);
+  border-radius: 25px;
+}
+
+/* .attribution {
+    padding: 20px;
+    font-size: 20px; 
+    text-align: center; 
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
